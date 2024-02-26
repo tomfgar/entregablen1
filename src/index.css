@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: "italic", sans-serif;
+}
+body{
+  margin: 0;
+}
+h1, h2, p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button{
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+}
+

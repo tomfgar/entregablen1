@@ -1,0 +1,21 @@
+.phrase_card{
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    background: turquoise;
+    color: black;
+    font-style: italic;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 0.7em;
+    font-weight: 400;
+    transition: transparent 100ms ease;
+}
+
+.phrase_card::after{
+    content: "";
+}
+
+.phrase_card::before{
+    content: "";
+}
